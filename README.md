@@ -65,6 +65,26 @@ There are three scripts to deal with:
 
     Be careful with posting too many photos as you may have no captions due to your Instagram account blocking (images will be posted though).
 
+
+### How to use
+Download SpaceX launch photos:
+```
+$ python3 fetch_spacex.py
+```
+
+Download Hubblesite collections images:
+```
+$ python3 fetch_hubble.py
+```
+Upload and post images in your Instagram account
+```
+2020-01-09 23:26:23,525 - INFO - Instabot Started
+2020-01-09 23:26:23,534 - INFO - LOGIN FLOW! Just logged-in: False
+2020-01-09 23:26:26,407 - INFO - Logged-in successfully as 'pomegranate1020'!
+FOUND: w:2000 h:2000 r:1.0
+2020-01-09 23:26:51,015 - DEBUG - <Response [200]>
+2020-01-09 23:26:51,581 - INFO - Photo 'images/launch87_spacex01.jpg' is uploaded.
+```
 ### Project Goals
 
 The code is written for educational purposes on online-course for web-developers [dvmn.org](https://dvmn.org/).
