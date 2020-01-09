@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ### Getting started
 There are three scripts to deal with:
-1. `fetch_spacex.py` helps you get images from a certain SpaceX launch using public SpaceX API. 
+1. `fetch_spacex.py` helps you get images from a certain [SpaceX](https://www.spacex.com/) launch using public SpaceX API. 
 The most current version of the API is `v3` with the following base URL `https://api.spacexdata.com/v3`. No authentication is required to use this public API. All the launch images are going to be downloaded to a new-created folder `images`. If the folder already exists, the images will be downloaded there without replacement.
 If you want to get images from another SpaceX launch, change its number in the script (default value  - `87`):
 ```
