@@ -3,7 +3,7 @@
 Space Instagram downloads and crops images, and posts `.jpg`-images of hubble images collections and a certain SpaceX launch in your Instagram account.
 
 ### How to install
-Use these steps before launching:
+Follow these steps before launching:
 1. Create an Instagram account standard way (via Instagram Official App), if you do not have one. Signing up via browser may cause errors.
 2. Create a `.env` file in `post_images.py` script directory and add your Instagram account login and password in the format below:
 ```
