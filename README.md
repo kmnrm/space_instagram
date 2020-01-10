@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ### Getting started
-There are three scripts to deal with:
+There are four scripts to deal with:
 1. `fetch_spacex.py` helps you get images from a certain [SpaceX](https://www.spacex.com/) launch using public SpaceX API. 
 
     The most current version of the API is `v3` with the following base URL `https://api.spacexdata.com/v3`. No authentication is required to use this public API. All the launch images are going to be downloaded to a new-created folder `images`. If the folder already exists, the images will be downloaded there without replacement.
@@ -65,6 +65,7 @@ There are three scripts to deal with:
 
     Be careful with posting too many photos as you may have no captions due to your Instagram account blocking (images will be posted though).
 
+4. `space_insta_utils.py` consists of images saving, cropping and extention detection fuctions, which are called in `fetch_spacex.py` and `fetch_spacex.py`.
 
 ### How to use
 Download SpaceX launch photos:
