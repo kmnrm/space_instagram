@@ -7,13 +7,13 @@ Use these steps before launching:
 1. Create an Instagram account standard way (via Instagram Official App), if you do not have one. Signing up via browser may cause errors.
 2. Create a `.env` file in `post_images.py` script directory and add your Instagram account login and password in the format below:
 ```
-LOGIN=your_login
-PASS=your_password
+MY_INSTAGTAM_LOGIN=your_login
+MY_INSTAGRAM_PASSWORD=your_password
 ```
 Do not use parenthesis, quotation marks or spaces, e.g:
 ```
-LOGIN=john_doe_83232883
-PASS=WhatAW0nderfu1DayToSignIn
+MY_INSTAGTAM_LOGIN=john_doe_83232883
+MY_INSTAGRAM_PASSWORD=WhatAW0nderfu1DayToSignIn
 ```
 
 Preinstall Python3 to use Space Instagram.
@@ -78,6 +78,7 @@ $ python3 fetch_hubble.py
 ```
 Upload and post images in your Instagram account
 ```
+$ python3 post_images.py
 2020-01-09 23:26:23,525 - INFO - Instabot Started
 2020-01-09 23:26:23,534 - INFO - LOGIN FLOW! Just logged-in: False
 2020-01-09 23:26:26,407 - INFO - Logged-in successfully as 'pomegranate1020'!
