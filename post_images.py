@@ -7,8 +7,8 @@ IMAGES_DIR = 'images'
 
 def main():
     load_dotenv()
-    login = os.getenv("LOGIN")
-    password = os.getenv("PASS")
+    login = os.getenv("MY_INSTAGTAM_LOGIN")
+    password = os.getenv("MY_INSTAGRAM_PASSWORD")
     images = os.listdir(IMAGES_DIR)
     jpg_images = list(filter(lambda x: x.endswith('.jpg'), images))
     bot = Bot()
